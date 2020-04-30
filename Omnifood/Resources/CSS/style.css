@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/****************************------ for html-----****************************/
+html{
+    font-family: monospace;
+    background-color: white;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+}
+/***********************-----heading background properties----**************************/
+header
+{
+    background-image:linear-gradient(rgb(0, 0,0,0.5),rgb(0,0,0,0.5)),url(img/hero1.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color:white;
+    font-weight: 300;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+}
+h2{
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 200% ;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+h2:after
+{
+    height: 2px;
+    background-color: #cd6f00 ;
+    content: " ";
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+h3
+{
+    font-weight: 300;
+    font-size: 130%;
+    margin-bottom: 15px;
+}
+.line-copy
+{
+    margin-top: 20px;
+    line-height: 150%;
+    width: 70%;
+    margin-left: 15%;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+.box{
+
+    padding: 1%;
+}
+.box p{
+    font-size: 90%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 145%;
+    margin-bottom: 50px;
+}
+.icon-big
+{
+    font-size: 400%;
+    display: block;
+    color: rgb(243, 156, 18);
+    margin-bottom: 10px;
+}
+/*********************************************** meal section********************************/
+.meal
+{
+    margin-bottom: 50px;
+}
+.meal-showcase
+{
+    width: 100%;
+    list-style: none;
+}
+.meal-showcase li
+{
+    width: 25%;
+    display: block;
+    float: left;
+}
+.meal-photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+.meal-photo img
+{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+}
+.meal-photo img:hover
+{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+/*************************************Buttons*********************************************/
+.btn:link,
+.btn:visited
+{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 200px;
+    transition: 0.4s;
+    border: 1px solid  rgb(243, 156, 18) ;
+
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+    background-color: rgb(243, 156, 18);
+}
+.btn-ghost:link
+.btn-ghost:visited
+{
+    border: 1px solid  rgb(243, 156, 18) ;
+}
+.btn:hover,
+.btn:active
+{
+    background-color: #cd6f00;
+}
+.logo
+{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+}
+.main-nav li
+{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px 0;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom 0.3s;
+
+    
+}
+.main-nav li a:hover,
+.main-nav li a:active
+{
+
+   border-bottom: 2px solid  rgb(243, 156, 18) ;
+    
+}
+/* hoew it is work*/
+
+.steps-box
+{
+    margin-top: 30px;
+}
+.steps-box:first-child
+{
+    text-align: right;
+    padding: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child
+{
+padding: 3%;
+margin-top: 70px;
+}
+.app-screen
+{
+    width: 45%;
+}
+.work-step
+{
+    margin-bottom: 50px;
+}
+.work-step:last-of-type
+{
+    margin-bottom: 80px;
+}
+.work-step div
+{
+    color: rgb(243, 156, 18);
+    border: 2px solid rgb(243, 156, 18);
+    border-radius: 50%;
+    font-size: 100%;
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+
+
+}
+/******************************************* Cities ****************************************/
+.box img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
